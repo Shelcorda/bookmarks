@@ -33,5 +33,5 @@ def user_login(request):
 @login_required
 def dashboard(request):
     #section变量用来跟踪用户在站点中正在查看的页面
-    return render(request, 'account/dashboard.html', {'secton': 'dashboard'})
+    return render(request, 'account/dashboard.html', {'section': 'dashboard'})
 

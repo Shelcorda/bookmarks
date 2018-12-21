@@ -16,11 +16,11 @@ urlpatterns = [
     #登录登出
     url(r'^login/$', login, name='login'),
     url(r'^logout/$', logout, name="logout"),
-    url(r'^logout-then-login/$',logout_then_login, name="logout_then_login"),
+    url(r'^logout-then-login/$', logout_then_login, name="logout_then_login"),
 
     #修改密码
     url(r'^password-change/$', password_change, name="password_change"),
-    url(r'^password-change/done/$', password_change_done,name="password_change_done"),
+    url(r'^password-change/done/$', password_change_done, name="password_change_done"),
 
     #重置密码
     url(r'^password-reset/$', password_reset, name='password_reset'),
